@@ -6,9 +6,9 @@ import Link from "next/link"
 
 // Mock data - in real app, this would come from your API
 const streams = [
-  { id: 1, name: "Front Entrance", status: "online", location: "Building A" },
-  { id: 2, name: "Parking Lot", status: "online", location: "Outdoor" },
-  { id: 3, name: "Reception Area", status: "offline", location: "Building A" },
+  { id: 1, name: "C3", status: "online", location: "Building A" },
+  { id: 2, name: "D5", status: "online", location: "Building C" },
+  { id: 3, name: "Lab", status: "offline", location: "C7" },
   { id: 4, name: "Server Room", status: "online", location: "Building B" },
 ]
 
