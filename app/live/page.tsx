@@ -6,10 +6,10 @@ import Link from "next/link"
 
 // Mock data - in real app, this would come from your API
 const streams = [
-  { id: 1, name: "Front Entrance", status: "online", location: "Building A" },
-  { id: 2, name: "Parking Lot", status: "online", location: "Outdoor" },
-  { id: 3, name: "Server Room", status: "online", location: "Building B" },
-  { id: 4, name: "Back Exit", status: "online", location: "Building A" },
+  { id: 1, name: "C7", status: "online", location: "Building A" },
+  { id: 2, name: "D3", status: "online", location: "Building D3-̀5" },
+  { id: 3, name: "Server Room", status: "offline", location: "Building B" },
+  { id: 4, name: "Library", status: "online", location: "Outdoor" },
 ]
 
 export default function LiveViewPage() {
