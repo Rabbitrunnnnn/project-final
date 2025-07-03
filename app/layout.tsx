@@ -6,10 +6,6 @@ import Sidebar from "./components-app/sidebar"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata: Metadata = {
-  title: "VMS - Video Management System",
-  description: "Simple and efficient video surveillance management",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
